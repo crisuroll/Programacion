@@ -1,7 +1,5 @@
 package arraysDosDimensiones;
 
-import java.util.Arrays;
-
 /**
  * Clase Ej01. Escribe un programa que sume dos matrices de numeros enteros de dimensiones 
  * iguales y muestre el resultado.
@@ -17,7 +15,7 @@ public class Ej01 {
 
 	public static void main(String[] args) {
 		
-		int num1, num2, i, j;
+		int i, j;
 		
 		int[][] array1 =
 			{
@@ -37,9 +35,7 @@ public class Ej01 {
 		
 		for (i = 0; i < array1.length; i++) {
 			for (j = 0; j < array2.length; j++) {
-				num1 = array1[i][j];
-				num2 = array2[i][j];
-				arraySuma[i][j] = num1 + num2;
+				arraySuma[i][j] = array1[i][j] + array2[i][j];
 			}
 		}
 		
