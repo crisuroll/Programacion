@@ -20,6 +20,7 @@ public class Main {
 
 
 public class Main {
+	
 	public static void main (String[] args) {
 		A a1 = new A(2,2);
 		A a2 = a1;

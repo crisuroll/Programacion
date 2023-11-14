@@ -1,5 +1,5 @@
 /**
- * Igualdad entre objetos, ejemplo 1. Clase Main.
+ * Igualdad entre objetos, ejemplo 2. Clase B.
  * @author crisuroll
  */
 
@@ -9,4 +9,12 @@ public class B {
 	public B (int z) {
 		this.z = z;
 	}
+	
+	/*
+	public boolean equals (B b) {
+		return (
+				this.z == b.z
+		);
+	}
+	*/
 }
