@@ -11,7 +11,7 @@ public class Main {
 		A2 a2 = new A2('a', a3);
 		A2 b2 = new A2('a', a3);
 		A1 a1 = new A1(199, a2, a3);
-		A1 b1 = new A1(199, a2, a3);
+		A1 b1 = a1.clone();
 		// Llamamos al método equals
 		if(a1.equals(b1)) {
 			System.out.println("Cierto");
