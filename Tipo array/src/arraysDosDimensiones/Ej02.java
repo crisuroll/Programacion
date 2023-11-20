@@ -20,16 +20,19 @@ public class Ej02 {
 		
 		int[][] array1 = 
 			{
-				{1, 2, 3, 4},
-				{5, 6, 7, 8},
-				{9, 10, 11, 12}
+				{1, 2, 3},
+				{4, 5, 6},
+				{7, 8, 9}
 			};
 		
-		int[][] arrayTrasp = new int[array1.length][array1.length];
+		int fil = array1.length;
+		int col = array1[0].length;
 		
-		for(i = 0; i < array1.length; i++) {
-			for(j = 0; j < array1.length; j++) {
-				arrayTrasp[i][j] = array1[j][i];
+		int[][] arrayTrasp = new int[col][fil];
+		
+		for(i = 0; i < fil; i++) {
+			for(j = 0; j < col; j++) {
+				arrayTrasp[j][i] = array1[i][j];
 			}
 		}
 		
