@@ -20,9 +20,9 @@ public class Ej02 {
 		
 		int[][] array1 = 
 			{
-				{1, 2, 3},
-				{4, 5, 6},
-				{7, 8, 9}
+				{1, 2, 3, 4},
+				{5, 6, 7, 8},
+				{9, 10, 11, 12}
 			};
 		
 		int fil = array1.length;
@@ -46,8 +46,8 @@ public class Ej02 {
 		System.out.print("\n");
 		
 		System.out.println("Array traspuesto");
-		for (i = 0; i < arrayTrasp.length; i++) {
-			for (j = 0; j < arrayTrasp.length; j++) {
+		for (i = 0; i < col; i++) {
+			for (j = 0; j < fil; j++) {
 				System.out.print(arrayTrasp[i][j] + " ");
 			}
 			System.out.println();
