@@ -34,11 +34,23 @@ public class Ej04 {
 		if ((num < 0) || (num > 50)) {
 			System.out.println("Debes introducir un número entre 0 y 50.");
 		} else {
+			// Es mas eficiente usar un bucle while
+			/*
 			for (int i = 0; i < arrayFind.length; i++) {
 				if (arrayFind[i] == num) {
 					System.out.println("El número " + num + " se encuentra en la posición " + i);
 					found = true;
 				}
+			}
+			*/
+			int i = 0;
+			while(arrayFind[i] != num) {
+				i++;
+			}
+			
+			if (arrayFind[i] == num) {
+				System.out.println("El número " + num + " se encuentra en la posición " + i);
+				found = true;
 			}
 			
 		}
