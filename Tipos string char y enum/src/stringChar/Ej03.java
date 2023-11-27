@@ -26,8 +26,8 @@ public class Ej03 {
 		st = sc.nextLine();	
 		sc.close();
 		for (i = 0; i < st.length(); i++) {
-			if ((st.charAt(i) == 'a') || (st.charAt(i) == 'b') || (st.charAt(i) == 'c') 
-				|| (st.charAt(i) == 'd') || (st.charAt(i) == 'e')) {
+			if ((st.charAt(i) == 'a') || (st.charAt(i) == 'e') || (st.charAt(i) == 'i') 
+				|| (st.charAt(i) == 'u') || (st.charAt(i) == 'u')) {
 				v++;
 			}
 		}
