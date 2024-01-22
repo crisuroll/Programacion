@@ -34,7 +34,6 @@ public class Circulo {
 	
 	/*
 	 * Otra forma de hacerlo para practicar getters y setters:
-	 * 
 	 * public double getArea() {
 	 *		return this.area;
 	 * }
