@@ -1,7 +1,3 @@
-/**
- * Clase Circulo.
- * @author crisuroll
- */
 
 public class Circulo {
 
