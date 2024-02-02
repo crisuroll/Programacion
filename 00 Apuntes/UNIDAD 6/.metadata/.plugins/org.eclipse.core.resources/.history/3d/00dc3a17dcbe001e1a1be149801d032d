@@ -1,0 +1,6 @@
+
+public class Telefono extends ProductoElectronico {
+	private String modelo;
+	
+	public String mostrarInformacion
+}

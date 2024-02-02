@@ -1,0 +1,9 @@
+
+public class Telefono extends ProductoElectronico {
+	private String modelo;
+	Telefono(String _nombre, float _precio) {
+		super(_nombre, _precio);
+		// TODO Auto-generated constructor stub
+	}
+	public String mostrarInformacion
+}

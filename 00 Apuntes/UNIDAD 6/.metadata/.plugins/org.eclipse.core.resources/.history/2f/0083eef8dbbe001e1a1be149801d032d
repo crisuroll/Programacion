@@ -1,0 +1,12 @@
+
+abstract public class ProductoElectronico {
+	protected String nombre;
+	protected float precio;
+	
+	ProductoElectronico() {
+		this.nombre = nombre;
+		this.precio = precio;
+	}
+	
+	abstract public String mostrarInformacion();
+}

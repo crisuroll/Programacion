@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		A3 a = new A3();
+		a.m();
+
+		// Ejemplo 3
+		A2 b = new A2();
+		a.m();
+		
+	}
+
+}
