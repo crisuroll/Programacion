@@ -2,11 +2,11 @@ import java.util.ArrayList;
 
 public class Usuario {
 	private String nombre;
-	private ArrayList<Libro> librosSolicitados = new ArrayList<Libro>();
+	private ArrayList<Libro> librosSolicitados;
 	
 	public Usuario (String _nombre) {
 		this.nombre = _nombre;
-		//this.librosSolicitados = _librosSolicitados;
+		this.librosSolicitados = new ArrayList<Libro>();
 	}
 	
 	public String nombreUsuario() {
@@ -29,8 +29,8 @@ public class Usuario {
 	
 	public void mostrarLibrosSolicitados() {
 		System.out.println("Los libros solicitados por " + nombreUsuario() + " son: ");
-	    for (int i = 0; i < librosSolicitados.size(); i++) {
-	        System.out.println(librosSolicitados.get(i).nombreLibro());
+	    for (int i = 0; i < this.librosSolicitados.size(); i++) {
+	        System.out.println(this.librosSolicitados.get(i).nombreLibro());
 	    }
 	}
 }

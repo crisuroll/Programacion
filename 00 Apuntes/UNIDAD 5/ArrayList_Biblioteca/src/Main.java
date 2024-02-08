@@ -4,13 +4,14 @@ public class Main {
 	public static void main(String[] args) {
 		Biblioteca biblioteca = new Biblioteca();
 		
-		Libro libro1 = new Libro("Java for Beginners", "John Doe", true);
-		Libro libro2 = new Libro("Clean Code", "Robert C. Martin", true);
-		
+		Libro libro1 = new Libro("Java for Beginners", "John Doe");
+		Libro libro2 = new Libro("Clean Code", "Robert C. Martin");
 		biblioteca.agregarLibro(libro1);
 		biblioteca.agregarLibro(libro2);
 		
 		Usuario usuario = new Usuario("Alice");
+		
+		biblioteca.buscarLibroPorTitulo("aaa");
 		
 		usuario.solicitarLibro(libro1);
 		biblioteca.eliminarLibro(libro1);

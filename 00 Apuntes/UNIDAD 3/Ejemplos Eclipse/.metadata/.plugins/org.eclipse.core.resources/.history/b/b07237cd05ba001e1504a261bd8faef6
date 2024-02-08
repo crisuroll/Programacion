@@ -1,6 +1,0 @@
-
-public class B extends A {
-	public void p(int x){
-		System.out.println(“p: B”);
-		}
-}

@@ -6,10 +6,10 @@ public class Libro {
 	private String autor;
 	private boolean disponible;
 	
-	public Libro (String _titulo, String _autor, boolean _disponible) {
+	public Libro (String _titulo, String _autor) {
 		this.titulo = _titulo;
 		this.autor = _autor;
-		this.disponible = _disponible;
+		this.disponible = true;
 	}
 	
 	public void prestar() {
