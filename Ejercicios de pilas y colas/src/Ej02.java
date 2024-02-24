@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 /**
@@ -7,7 +7,7 @@ import java.util.Queue;
 public class Ej02 {
 
 	public static void main(String[] args) {
-		Queue<Integer> uwu = new LinkedList<Integer>();
+		Queue<Integer> uwu = new PriorityQueue<Integer>();
 		uwu.add(2);
 		uwu.add(5);
 		uwu.add(3);
