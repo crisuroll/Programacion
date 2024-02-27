@@ -28,23 +28,23 @@ public class Main {
 	 * @param array
 	 */
 	public static void burbuja(int[] array) {
-		int acu = 0;
-		for (int i = 0; i < array.length - 1; i++) {
-			for (int j = 0; j < array.length - i -1; j++) {
-				if (array[j] > array[j + 1]) {
-					acu = array[j + 1];
-					array[j + 1] = array[j];
-					array[j] = acu;
-				}
-				
-			}
-			System.out.println();
-			 
-			for (int k = 0; k < array.length; k++) {
-				System.out.print(array[k] + " ");
-			}
+		    int acu = 0;
+		    for (int i = 0; i < array.length - 1; i++) {
+		        for (int j = 0; j < array.length - i - 1; j++) {
+		            if (array[j] > array[j + 1]) {
+		                acu = array[j + 1];
+		                array[j + 1] = array[j];
+		                array[j] = acu;
+		            }
+		        }
+		        System.out.println();
+
+		        for (int k = 0; k < array.length; k++) {
+		            System.out.print(array[k] + " ");
+		        }
+		    }
 		}
-	}
+
 	
 	/**
 	 * Clase imprimir. Imprime el array recibido.
