@@ -9,15 +9,16 @@ public class Ej01 {
 	public static void main(String[] args) {
 		Queue<Integer> uwu = new PriorityQueue<Integer>();
 		uwu.add(100);
-		uwu.add(23);
+		uwu.add(230);
 		uwu.add(42);
 		
 		int numQ = 0;
-		int max = Integer.MIN_VALUE;
+		int max = uwu.peek();
 		while(!uwu.isEmpty()) {
-			numQ = uwu.element();
-			uwu.poll();
-			max = Math.max(max, numQ);
+			numQ = uwu.poll();
+			if (numQ > max) {
+				max = numQ;
+			}
 		}
 		System.out.println(max);
 	}

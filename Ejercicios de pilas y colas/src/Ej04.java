@@ -22,7 +22,6 @@ public class Ej04 {
             } else if (c == ')') {
                 if (uwu.isEmpty() || uwu.pop() != '(') {
                     balance = false;
-                    break; // Salir del bucle si no está balanceado
                 }
             }
         }
