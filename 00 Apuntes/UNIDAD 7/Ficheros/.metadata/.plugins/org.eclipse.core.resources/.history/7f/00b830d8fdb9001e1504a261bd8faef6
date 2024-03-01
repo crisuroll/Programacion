@@ -1,0 +1,23 @@
+
+public class Persona {
+	protected long dni;
+	protected String nombre;
+
+public Persona() {
+dni = -1;
+nombre = “”;
+}
+
+	public Persona(long dni, String n) {
+		this.dni = dni;
+		this.nombre = n;
+	}
+
+	public void setDNI(long dni) {
+		this.dni = dni;
+	}
+
+	public void setNombre(String n) {
+		this.nombre = n;
+	}
+}

@@ -1,0 +1,9 @@
+
+public class Telefono extends ProductoElectronico {
+	private String modelo;
+	
+	public String mostrarInformacion(String _nombre, float _precio, String _modelo) {
+		super(_nombre, _precio);
+		return nombre, modelo, precio;
+	}
+}

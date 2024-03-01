@@ -1,0 +1,7 @@
+
+abstract public class ProductoElectronico {
+	protected String nombre;
+	protected float precio;
+	
+	abstract public String mostrarInformacion();
+}
